@@ -10,7 +10,7 @@ html, body {
 /* Navbar */
 .navbar {
     overflow: hidden;
-    background-color: dimgray;
+    background-color: #663399;
     font-family: 'Raleway', sans-serif;
     width: 100%;
 }
@@ -41,7 +41,7 @@ html, body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: pink;
+    background-color: lightblue;
     color: dimgray;
 }
 
@@ -101,7 +101,7 @@ footer {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
-    color: dimgray; 
+    color: gray; 
     margin-top: 20px;
     margin-left: 20px;
 }
