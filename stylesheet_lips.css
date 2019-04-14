@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-	font-family: 'Raleway', sans-serif';
 }
 
 html, body {
@@ -11,7 +10,7 @@ html, body {
 /* Navbar */
 .navbar {
     overflow: hidden;
-    background-color: dimgray;
+    background-color: #663399;
     font-family: 'Raleway', sans-serif;
     width: 100%;
 }
@@ -42,7 +41,7 @@ html, body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: pink;
+    background-color: lightblue;
     color: dimgray;
 }
 
@@ -87,11 +86,7 @@ html, body {
     width: auto;
     float: right;
 }
-/*Body */
-.a {
-	font-family: 'Raleway', sans-serif;
-}
-/* Body End */
+
 footer {
     background: dimgray;
     height: 25px;
@@ -101,4 +96,12 @@ footer {
     font-family: 'Raleway', sans-serif;
     color: lightgoldenrodyellow;
     padding-left: 5px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: gray; 
+    margin-top: 20px;
+    margin-left: 20px;
 }
